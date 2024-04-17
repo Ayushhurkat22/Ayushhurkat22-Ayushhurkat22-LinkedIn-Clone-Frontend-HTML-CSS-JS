@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Me</title>
+  <link rel="Icon" href="Img/Linkedin-favicon-48.png" sizes="32x32" />
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="profile.css" />
+</head>
+
+<body>
+  <!-- -----------Navigation bar-------------------- -->
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-left">
+        <div class="logo">
+          <a href="index.html"><img src="Img/linkedin.png" alt="LinkedIn logo" /></a>
+        </div>
+        <div class="searchbar">
+          <input type="text" name="Search" id="Searchbar" placeholder="Search" />
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <ul>
+          <li>
+            <a href="index.html"><img src="Img/home.png" class="menu-png" />
+              <span>Home</span></a>
+          </li>
+
+          <li>
+            <a href="index.html"><img src="Img/user.png" class="menu-png" /><span>My Network</span></a>
+          </li>
+          
+
+
+          <li>
+            <a href="index.html"><img src="Img/briefcase.png" class="menu-png" />
+              <span>Jobs</span></a>
+          </li>
+
+          <li>
+            <a href="index.html"><img src="Img/chat.png" class="menu-png" />
+              <span>Messaging</span></a>
+          </li>
+
+          <li>
+            <a href="index.html"><img src="Img/notification.png" class="menu-png" />
+              <span>Notifications</span></a>
+          </li>
+          <li id="profile-link">
+            <a href="profile.html">
+              <img src="https://localrecordsoffice.co/wp-content/uploads/2014/10/college-student-local-records-office-real-estate.jpg" class="menu-png" id="profile" />
+              <span>Me</span>
+            </a>
+          </li>
+          <li id="business-border">
+            <a href="index.html"><img src="Img/menu.png" class="menu-png" />
+              <span>For Business</span></a>
+          </li>
+          <li id="Premium-link">
+            <a href="#"><span>Try Premium for Free</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ------------------------------Main content start------------------------- -->
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero">
+        <div class="hero-banner">
+          <img src="https://www.success.com/wp-content/uploads/legacy/sites/default/files/5_18.jpg" alt="">
+        </div>
+        <div class="hero-avatar">
+          <img
+            src="https://localrecordsoffice.co/wp-content/uploads/2014/10/college-student-local-records-office-real-estate.jpg"
+            alt="">
+        </div>
+      </div>
+
+      <div class="intro">
+        <div class="intro-name">
+          John Carl
+        </div>
+        <div class="intro-desc">
+          <p>Software Engineer</p>
+          <p>C | C++ | Python | HTML | CSS | Javascript | React.js | Fronend Developement | Aspiring Full Stack
+            Developer</p>
+        </div>
+      </div>
+      <div class="ops">
+        <div class="message">
+          Message
+        </div>
+        <div class="connect">
+          Connect
+        </div>
+        <div class="more">
+          More
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+
+      <div class="dropdown">
+        <div class="top">
+          <h2>About</h2>
+          <span class="show-more-button-about" onclick="toggleAboutContent()">Show More</span>
+          <span class="show-less-button-about" style="display: none;" onclick="toggleAboutContent()">Show Less</span>
+        </div>
+        <div class="about-content collapsed" id="about-content" style="display: none;">
+          <p class="about-desc">Passionate about crafting innovative software solutions, I thrive on challenges and
+            continuously seek to expand my skills in the ever-evolving landscape of technology. With expertise in C,
+            C++, Python, and a keen eye for frontend development using HTML, CSS, and JavaScript, I aspire to become a
+            proficient Full Stack Developer.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="experience" id="experience">
+      <h2>Experience</h2>
+
+      <div class="exp-item">
+        <div class="org-img">
+            <img src="https://cdn.dribbble.com/users/904380/screenshots/2233565/attachments/415915/revised-google-logo.png" alt="">
+        </div>
+        <div class="exp-details">
+            <h4 class="role-name">Software Engineer</h4>
+            <div class="role-org-name">Google</div>
+            <p class="role-duration">Aug 2022 - Present</p>
+            <div class="dropdown">
+                <div class="top">
+                    <div class="toggle-buttons">
+                        <span class="show-more-button-exp-item" onclick="toggleRoleContent('role-content-1')">Show More</span>
+                        <span class="show-less-button-exp-item" style="display: none;" onclick="toggleRoleContent('role-content-1')">Show Less</span>
+                    </div>
+                </div>
+                <div class="role-content collapsed" id="role-content-1" style="display: none;">
+                    <div class="role-desc">
+                        <ul>
+                            <li>Developed scalable backend systems for optimizing search algorithms and enhancing user experience.</li>
+                            <li>Collaborated with cross-functional teams to implement innovative solutions, improving product performance by 30%.</li>
+                            <li>Conducted code reviews and provided mentorship to junior engineers, fostering a culture of continuous learning and growth.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="exp-item">
+      <div class="org-img">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.NY_3eYwlDmAyFeqMrx3gGgHaD4&pid=Api&P=0&h=180" alt="">
+      </div>
+      <div class="exp-details">
+          <h4 class="role-name">Software Engineer</h4>
+          <div class="role-org-name">Amazon</div>
+          <p class="role-duration">Apr 2022 - Jul 2022</p>
+          <div class="dropdown">
+              <div class="top">
+                  <div class="toggle-buttons">
+                      <span class="show-more-button-exp-item" onclick="toggleRoleContent('role-content-2')">Show More</span>
+                      <span class="show-less-button-exp-item" style="display: none;" onclick="toggleRoleContent('role-content-2')">Show Less</span>
+                  </div>
+              </div>
+              <div class="role-content collapsed" id="role-content-2" style="display: none;">
+                  <div class="role-desc">
+                      <ul>
+                          <li>Developed scalable solutions for optimizing e-commerce platform performance, leveraging Java and AWS services.</li>
+                          <li>Collaborated with cross-functional teams to implement new features and resolve technical issues.</li>
+                          <li>Contributed to code reviews and provided mentorship to junior team members, fostering a culture of continuous learning and improvement.</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="exp-item">
+      <div class="org-img">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.k8kIGWubEP6XzY3zn7e05gHaEN&pid=Api&P=0&h=180" alt="">
+      </div>
+      <div class="exp-details">
+          <h4 class="role-name">Software Engineer</h4>
+          <div class="role-org-name">BNY Mellon</div>
+          <p class="role-duration">Dec 2021 - Feb 2022</p>
+          <div class="dropdown">
+              <div class="top">
+                  <div class="toggle-buttons">
+                      <span class="show-more-button-exp-item" onclick="toggleRoleContent('role-content-3')">Show More</span>
+                      <span class="show-less-button-exp-item" style="display: none;" onclick="toggleRoleContent('role-content-3')">Show Less</span>
+                  </div>
+              </div>
+              <div class="role-content collapsed" id="role-content-3" style="display: none;">
+                  <div class="role-desc">
+                      <ul>
+                          <li>Developed backend systems for financial data processing, ensuring high performance and reliability.</li>
+                          <li>Collaborated with cross-functional teams to implement new features and optimize existing codebase.</li>
+                          <li>Contributed to the design and architecture discussions, offering solutions for scalability and maintainability challenges.</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    </section>
+
+    <section class="education" id="education">
+      <h2>Education</h2>
+
+      <div class="edu-item">
+        <div class="edu-img">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.1xuEdKYT9H7R1ULejaZnAgAAAA&pid=Api&P=0&h=180" alt="">
+        </div>
+        <div class="edu-details">
+          <h4 class="edu-name">Bachelor of Technology, Information Technology</h4>
+          <div class="edu-org-name">Madhav Institute Of Technology And Science</div>
+          <div class="edu-duration">2021-2025</div>
+        </div>
+      </div>
+
+
+      <div class="edu-item">
+        <div class="edu-img">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.wtXpgA_wA36JMRkozlD_XQHaEf&pid=Api&P=0&h=180" alt="">
+        </div>
+        <div class="edu-details">
+          <h4 class="edu-name">Higher Secondary Education</h4>
+          <div class="edu-org-name">Bareli Vidhya Mandir</div>
+          <div class="edu-duration">2019-2021</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-img">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.m1csVJHyyB9hdYue4VTUHgAAAA&pid=Api&P=0&h=180" alt="">
+        </div>
+        <div class="edu-details">
+          <h4 class="edu-name">Secondary Education</h4>
+          <div class="edu-org-name">St. Joseph's Sr. Sec. School</div>
+          <div class="edu-duration">2007-2019</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="profile.js"></script>
+</body>
+<footer>
+  <div class="footer-text">
+    <p>Created By Ayush Hurkat with HTML, CSS and Javascript</p>
+  </div>
+</footer>
+</html>

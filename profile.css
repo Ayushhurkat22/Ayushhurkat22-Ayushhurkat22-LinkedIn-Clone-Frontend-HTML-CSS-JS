@@ -7,6 +7,20 @@ body{
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+  }
+  
+  .background-video video {
+    min-width: 100%;
+    min-height: 100%;
+  }
 main{
     margin-top: 20px;
     max-width: 900px;
@@ -16,7 +30,7 @@ main{
 
 section{
     margin-bottom: 10px;
-    background-color: white;
+    background-color: rgba(255,255,255,0.2);
     padding: 10px;
 }
 section h2{
@@ -25,8 +39,13 @@ section h2{
     margin-bottom: 10px;
 }
 
+h2{
+    color: white;
+}
+
 .hero{
     position: relative;
+    color: white;
 }
 .hero-banner{
     width: 100%;
@@ -81,7 +100,7 @@ section h2{
 
 .more {
     border: 1px solid #292929;
-    color: #292929;
+    color: #0077B5;
     background-color: #F3F3F3;
 }
 
@@ -108,15 +127,17 @@ section h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 5px;
+    color: white;
 }
 .intro-desc{
     font-size: 16px;
-    color: #373737;
+    color: white;
     margin-bottom: 20px;
 }
 
 .about {
     margin-top: 50px;
+    color: white;
   }
   
   .about-content {
@@ -152,7 +173,7 @@ section h2{
   
   .about-desc {
     font-size: 14px;
-    color: #373737;
+    color: white;
     margin-bottom: 20px;
   }
   
@@ -162,42 +183,40 @@ section h2{
     max-height: 100px; 
     overflow: hidden; 
     transition: max-height 0.3s ease; 
+    color: white;
 }
 .role-content.collapsed {
     max-height: 150px; 
     overflow: hidden; 
     transition: max-height 0.3s ease; 
+    color: white;
 }
 .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
 }
 .toggle-buttons {
     display: flex;
     align-items: center;
+    color: white;
 }
 .show-more-button-exp-item,
 .show-less-button-exp-item {
     margin-top: 10px;
     cursor: pointer;
+    color: white;
 }
 
 .role-desc {
     font-size: 14px;
-    color: #373737;
+    color: white;
     margin-bottom: 20px;
 }
-.role-desc {
-    font-size: 14px;
-    color: #373737;
-    margin-bottom: 20px;
-}
-
-/* exp item 2 */
-
 
 .exp-item {
+    color: white;
     display: flex;
     margin-top: 40px;
 }
@@ -212,27 +231,30 @@ section h2{
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
+    color: white;
 }
 .role-name {
+    color: white;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 .role-org-name {
+    color: white;
     font-size: 14px;
-    color: #464646;
     font-weight: 300;
     margin-bottom: 5px;
 }
 .role-duration {
+    
     font-size: 14px;
-    color: #464646;
+    color: white;;
     font-weight: 300;
     margin-bottom: 5px;
 }
 .role-desc {
     font-size: 14px;
-    color: #232323;
+    color: white;
     margin-bottom: 5px;
 } 
 .role-desc ul {
@@ -260,16 +282,17 @@ section h2{
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
+    color: white;
 }
 .edu-org-name {
     font-size: 14px;
-    color: #464646;
+    color: white;
     font-weight: 300;
     margin-bottom: 5px;
 }
 .edu-duration {
     font-size: 14px;
-    color: #464646;
+    color: white;
     font-weight: 300;
     margin-bottom: 5px;
 }
@@ -277,27 +300,27 @@ section h2{
 /* licences  */
 .lic-org-name {
     font-size: 14px;
-    color: #464646;
+    color: white;
     font-weight: 300;
     margin-bottom: 5px;
 }
 .lic-duration {
     font-size: 14px;
-    color: #464646;
+    color: white;
     font-weight: 300;
     margin-bottom: 5px;
 }
 
 .lic-id {
     font-size: 14px;
-    color: #464646;
+    color: white;
     font-weight: 300;
     margin-bottom: 5px;
 }
 .cred-link {
     height: 29px;
     width: 123px;
-    border: 2px solid black;
+    border: 2px solid white;;
     border-radius: 20px; 
     display: flex;
     justify-content: center;
@@ -306,6 +329,7 @@ section h2{
   
   .cred-link a {
     font-size: 15px; 
+    color: white;
   }
 .top {
     display: flex;
@@ -315,7 +339,7 @@ section h2{
 
 /* volunteering */
 #show-more-button-volunteer {
-    color: #373737;
+    color: white;
     cursor: pointer;
 }
 
@@ -330,12 +354,15 @@ section h2{
 
 /* skills */
 .skill-details{
+    color: white;
     margin-top: 10px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
-
+.skill-name{
+    color: white;
+}
 .skill-details img{
     width: 38px;
     height: 38px;
@@ -346,6 +373,7 @@ section h2{
 .recommend-item {
     display: flex;
     margin-top: 40px;
+
 }
 .recommend-img {
     width: 48px;
@@ -364,22 +392,23 @@ section h2{
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
+    color: white;
 }
 .recommend-org-name {
     font-size: 14px;
-    color: #464646;
+    color: white;
     font-weight: 300;
     margin-bottom: 5px;
 }
 .recommend-duration {
     font-size: 14px;
-    color: #464646;
+    color: white;
     font-weight: 300;
     margin-bottom: 5px;
 }
 .recommend-desc {
     font-size: 14px;
-    color: #232323;
+    color: white;
     margin-bottom: 5px;
 }
 
@@ -389,6 +418,7 @@ section h2{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 .honor-details img{

@@ -427,6 +427,10 @@ h2{
     margin-right: 10px;
 }
 
+.issue-date{
+    color: white;
+}
+
 .footer-text{
     display: flex;
     align-items: center;
